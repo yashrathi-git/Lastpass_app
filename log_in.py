@@ -32,7 +32,7 @@ class AskPass():
 
     #SELF IS NAMED as gui
     def btnClick(gui):
-        if gui.password.get() == 'PA$$WORD' and gui.intVar.get() ==1:
+        if gui.password.get() == '' and gui.intVar.get() ==1:
             gui.master.destroy()
             window2= Tk()
             MainRegister(window2)
